@@ -1,9 +1,9 @@
 #include <Adafruit_NeoPixel.h> 
 
-// define global object to control the PIO48 RGB LED (onboard LED)
-  // LED_RGB Object = {# of LEDS, GPIOPIN_48, Type of LED, Data Rate/Communication Speed}
+// define global object to control the PIO38 RGB LED (onboard LED)
+  // LED_RGB Object = {# of LEDS, GPIOPIN_38, Type of LED, Data Rate/Communication Speed}
   // !! NEO_GRBW = Green + Red + Blue + White !!
-Adafruit_NeoPixel LED_RGB(1, 48, NEO_GRBW + NEO_KHZ800); 
+Adafruit_NeoPixel LED_RGB(1, 38, NEO_GRBW + NEO_KHZ800); 
 
 // setup code (runs once)
 void setup() {
